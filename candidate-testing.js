@@ -25,8 +25,8 @@ function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 for (let i = 0; i < questions.length; i++) {
     candidateAnswers[i] = input.question(questions[i])
-    console.log('Your Answer: ', candidateAnswers[i]);
-    console.log('Correct Answer: ', correctAnswers[i]);
+    console.log(`Your Answer:  ${candidateAnswers[i]}`);
+    console.log(`Correct Answer: ${correctAnswers[i]}`);
   }
   
 }
@@ -55,7 +55,7 @@ console.log(`>>> Status: ${status} <<<`)
 function runProgram() {
   askForName();
   // TODO 1.1c: Ask for candidate's name //
-  console.log('Hello, ' + candidateName);
+  console.log(`Hello , ${candidateName}`);
   askQuestion();
   gradeQuiz(candidateAnswer);
 }
