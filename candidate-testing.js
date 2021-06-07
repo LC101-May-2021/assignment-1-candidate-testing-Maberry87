@@ -55,7 +55,7 @@ console.log(`>>> Status: ${status} <<<`)
 function runProgram() {
   askForName();
   // TODO 1.1c: Ask for candidate's name //
-  console.log(`Hello , ${candidateName}`);
+  console.log(`Candidate Name: ${candidateName} !`);
   askQuestion();
   gradeQuiz(candidateAnswer);
 }
