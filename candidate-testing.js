@@ -47,7 +47,7 @@ for (let i = 0; i < numOfQuizQuestions; i++) {
   if (grade < 80){
     status = 'FAILED';
   }
-console.log(`>>> Overall Grade: ${grade}% (${numOfCorrectAnswers}) of ${numOfQuizQuestions} responses correct <<<`)
+console.log(`>>> Overall Grade: ${grade}% (${numOfCorrectAnswers} of ${numOfQuizQuestions} responses correct) <<<`)
 console.log(`>>> Status: ${status} <<<`)
   return grade;
 }
